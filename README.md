@@ -42,10 +42,36 @@
 
 ## ⚡ Quick Start in 30 Seconds / Швидкий старт за 30 секунд
 
-| 🇬🇧 English (3 Steps) | 🇺🇦 Українською (3 кроки) |
-| :--- | :--- |
-| 1️⃣ Download & install free **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Click **`<> Code` ➔ `Download ZIP`** on this page, extract it, and open that folder in Antigravity (`File ➔ Open Folder`).<br>3️⃣ Copy & paste this command into the AI chat on the right: | 1️⃣ Встановіть безкоштовну програму **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Натисніть зелену кнопку **`<> Code` ➔ `Download ZIP`** вгорі сторінки, розпакуйте папку та відкрийте її в Antigravity (`File ➔ Open Folder`).<br>3️⃣ Скопіюйте та вставте цю команду у вікно ШІ-чату праворуч: |
-| <pre><code>Run ECHELON_PC_DOCTOR_EN.md</code></pre> | <pre><code>Виконай промпт із файлу ECHELON_PC_DOCTOR_UA.md</code></pre> |
+<table>
+<tr>
+<th align="left" width="50%">🇬🇧 English (3 Steps)</th>
+<th align="left" width="50%">🇺🇦 Українською (3 кроки)</th>
+</tr>
+<tr>
+<td valign="top">
+
+1️⃣ Download & install free **[Google Antigravity](https://antigravity.google/)**.  
+2️⃣ Click **`<> Code` ➔ `Download ZIP`** on this page, extract it, and open that folder in Antigravity (`File ➔ Open Folder`).  
+3️⃣ Copy & paste this command into the AI chat on the right:
+
+```text
+Run ECHELON_PC_DOCTOR_EN.md
+```
+
+</td>
+<td valign="top">
+
+1️⃣ Встановіть безкоштовну програму **[Google Antigravity](https://antigravity.google/)**.  
+2️⃣ Натисніть зелену кнопку **`<> Code` ➔ `Download ZIP`** вгорі сторінки, розпакуйте папку та відкрийте її в Antigravity (`File ➔ Open Folder`).  
+3️⃣ Скопіюйте та вставте цю команду у вікно ШІ-чату праворуч:
+
+```text
+Виконай промпт із файлу ECHELON_PC_DOCTOR_UA.md
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -65,7 +91,7 @@ It transforms your AI agent into a **Senior Systems & Performance Engineer** tha
 
 ```mermaid
 flowchart LR
-    A["🚀 1. Drop Prompt in\nGoogle Antigravity"] --> B["🔍 2. Stage 1: Read-Only X-Ray\n(14 Modules in 1 Mega-Script)"]
+    A["🚀 1. Drop Prompt in\nGoogle Antigravity"] --> B["🔍 2. Stage 1: Read-Only X-Ray\n+ Live TODO in ECHELON_AUDIT_REPORT.md"]
     B --> C["🛑 3. Mandatory Safety Stop\n3-Tier Report + Numbered Menu"]
     C --> D["💬 4. Reply in 1 Word\n('ALL' / 'SAFE' / '1, 3, 5')"]
     D --> E["⏪ 5. Auto Restore Point\n+ .reg Registry Backup"]
@@ -135,7 +161,7 @@ Even if you have never used GitHub or AI tools before, just follow these **5 sim
    Go to 👉 **[https://antigravity.google/](https://antigravity.google/)**, click **Download**, install the program (just like any regular app), and sign in with your regular Google / Gmail account.
    * 🧠 **Which AI Model Should You Select in the Chat Dropdown?**
      * 💎 **If you have a PAID Subscription (Google Gemini Advanced / Google One AI Pro):** select **`Gemini 4 (Argon / Pro)`** — Google's flagship reasoning model, which will run all 14 modules in a single pass with maximum analytical depth!
-     * 🆓 **If you are on the FREE Tier (No Subscription):** select **`Gemini Flash` (`Gemini 3.8 Flash`)** — it is smart, fast, and **uses minimal tokens so your free quota won't run out quickly**, and split the scan into 2 stages (see Step 4 below) to comfortably fit within free limits!
+     * 🆓 **If you are on the FREE Tier (No Subscription):** select **`Gemini Flash` (`Gemini 3.8 Flash`)** — thanks to the built-in **Module-by-Module `TODO` Pipeline in `ECHELON_AUDIT_REPORT.md`**, the agent analyzes your PC sequentially (1 module or compact focus-group at a time), writes found tasks directly into the `TODO` file on disk so it never loses context or hits output limits, and lets you resume from the exact next module at any time!
 2. **📂 Step 2 — Download the Prompt File from GitHub to a Folder on Your PC:**
    * **Easiest way (Download ZIP):** At the top right of this GitHub page, click the green **`<> Code`** button $\rightarrow$ **`Download ZIP`**, and extract the folder anywhere on your PC (e.g., to your Desktop or `C:\PC_Optimization`).
    * **Or download just 1 file:** Click on **[`ECHELON_PC_DOCTOR_EN.md`](./ECHELON_PC_DOCTOR_EN.md)** in the file list above, click the **⬇️ (`Download raw file`)** icon at the top right of the file view, and save it into an empty folder on your PC *(🌍 Note: either `_EN` or `_UA` file works identically — we warmly welcome users from all around the free world and gladly support every language on Earth except Russian, because Russia is a terrorist state that violates international law 🚫)*.
@@ -143,16 +169,15 @@ Even if you have never used GitHub or AI tools before, just follow these **5 sim
    Launch **Google Antigravity**, click **File $\rightarrow$ Open Folder...** in the top-left menu, and select the folder where you saved the file *(if asked "Do you trust the authors of the files in this folder?", click **Yes, I trust the authors**)*.
 4. **🚀 Step 4 — Start the Safe Scan in the AI Chat (Stage 1):**
    In the AI chat panel on the right *(if the chat panel isn't visible, press `Ctrl + L` or click the AI chat icon at the top right)*, type:
-   * **Full Run (ideal if you have a Google Gemini subscription):**
+   * **Standard Run (works on both Paid Pro and Free `Gemini Flash`):**
      ```text
      Run ECHELON_PC_DOCTOR_EN.md
      ```
-   * **Split Run in 2 Stages (if you are on the Free Tier without a subscription, to fit free token limits):**
+   * **Ultra-Light 1-Module-at-a-Time Mode (optional for strict Free Tier quotas):**
      ```text
-     Run ECHELON_PC_DOCTOR_EN.md (Modules 1-7 only: Disks & Cache Cleanup)
+     Run ECHELON_PC_DOCTOR_EN.md module by module (1 module at a time) and save tasks to ECHELON_AUDIT_REPORT.md
      ```
-     *(and once finished, open a new chat and run the second half: `Run ECHELON_PC_DOCTOR_EN.md (Modules 8-14 only: Registry, Security, Network, Drivers & FPS)`)*
-   * 📄 **Live Cross-Session Progress Journal (`ECHELON_AUDIT_REPORT.md` — Zero Progress Lost Between Sessions & Reboots):** Right from Stage 1, the agent creates and continuously updates **`ECHELON_AUDIT_REPORT.md`** in your folder after every action or wave — preserving your initial `BEFORE` baseline, cumulative freed gigabytes across all sessions, `[ ] / [x]` checklist, and session changelog! If your free token quota runs out, or if a new empty chat opens after you reboot your PC / configure BIOS, simply type: **`I rebooted my PC, continue and verify results from ECHELON_AUDIT_REPORT.md`**.
+   * 📄 **Live Module-by-Module `TODO` Tracker & Cross-Session Journal (`ECHELON_AUDIT_REPORT.md` — Zero Context or Progress Lost):** Right from Step 0, the agent creates **`ECHELON_AUDIT_REPORT.md`** with a `[ ] Module 1 .. [ ] Module 14` progress tracker and an **`ACTION TODO LIST`**. As it inspects each module, it immediately writes discovered optimizations to the `TODO` list on disk and checks off `[x] Module N`. If your free token quota runs out mid-scan or you reboot your PC / configure BIOS, simply open a new chat and type: **`Continue from ECHELON_AUDIT_REPORT.md`** — the agent will read the file and continue from the first uncompleted `[ ] Module` without repeating anything!
    * 💡 **IMPORTANT PRO TIP (Zero Click Spam):** When the agent asks permission to run its first terminal check, click the small arrow **`▼`** next to the **Allow / Run** button and select **"Always allow"**. The agent will finish the entire Read-Only scan in 1–2 minutes and **stop completely** to show you the report!
 5. **⚡ Step 5 — Reply in 1 Word, Run the Admin File & Type `+` / `DONE` in Chat (Stages 2 & 3):**
    * At the bottom of the report, the agent will show a numbered menu `[1]`, `[2]`, `[3]`... Simply reply in chat with **`ALL`** (to apply all recommended optimizations), **`SAFE`** (only 100% safe junk cleanup), or specific numbers like **`1, 3, 5`**.
@@ -256,7 +281,7 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
    Перейдіть на офіційний сайт 👉 **[https://antigravity.google/](https://antigravity.google/)**, натисніть **Download**, встановіть програму (як звичайну гру чи браузер) і увійдіть під своїм звичайним Google-акаунтом (поштою Gmail).
    * 🧠 **Яку модель ШІ обрати у випадаючому списку внизу чату?**
      * 💎 **Якщо у вас ПЛАТНА підписка (Google Gemini Advanced / Google One AI Pro):** рекомендуємо обрати флагманську модель **`Gemini 4 (Argon / Pro)`** — вона має найвищий інженерний інтелект і легко виконає всі 14 модулів за один прохід!
-     * 🆓 **Якщо ви на БЕЗКОШТОВНОМУ тарифі (без підписки):** рекомендуємо обрати модель **`Gemini Flash` (`Gemini 3.8 Flash`)** — вона дуже розумна, чудово пише PowerShell-скрипти, працює миттєво і **не «з'їдає» швидко безкоштовні ліміти токенів**, а саму перевірку розділіть на 2 етапи (див. Крок 4 нижче)!
+     * 🆓 **Якщо ви на БЕЗКОШТОВНОМУ тарифі (без підписки):** рекомендуємо обрати модель **`Gemini Flash` (`Gemini 3.8 Flash`)** — завдяки вбудованому **Помодульному Конвеєру Задач (`TODO`) у файлі `ECHELON_AUDIT_REPORT.md`** агент опрацьовує систему послідовно (по 1 модулю або компактними фокус-групами), одразу записує знайдені задачі у `TODO`-файл на диск, не втрачає контекст на малих лімітах і дозволяє продовжити роботу з наступного модуля в будь-який момент!
 2. **📂 Крок 2 — Завантажте файл із GitHub у папку на ПК:**
    * **Найпростіший спосіб (Скачати архів):** Угорі цієї сторінки GitHub натисніть зелену кнопку **`<> Code` $\rightarrow$ `Download ZIP`** і розпакуйте завантажений архів у будь-яку папку на комп'ютері (наприклад, на Робочий стіл або `C:\PC_Optimization`).
    * **Або скачайте лише 1 файл:** Натисніть у списку файлів угорі на **[`ECHELON_PC_DOCTOR_UA.md`](./ECHELON_PC_DOCTOR_UA.md)**, потім у правому верхньому куті над текстом натисніть значок завантаження **⬇️ (`Download raw file`)** і покладіть файл у нову порожню папку на ПК *(🌍 Примітка: будь-яка версія — `_UA` або `_EN` — працює однаково: ми щиро раді користувачам з усього вільного світу та охоче підтримуємо всі мови світу, окрім росіян і російської мови, оскільки росія — це держава-терорист, яка порушує міжнародне право 🚫)*.
@@ -264,16 +289,15 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
    Запустіть програму **Google Antigravity**, натисніть у верхньому лівому меню **File $\rightarrow$ Open Folder...** і виберіть папку, куди ви поклали файл *(якщо з'явиться віконце «Do you trust the authors of the files in this folder?» — натисніть синю кнопку **Yes, I trust the authors**)*.
 4. **🚀 Крок 4 — Запустіть безпечне сканування в чаті ШІ (Етап 1):**
    У вікні чату зі штучним інтелектом справа *(якщо вікно чату не відкрите — натисніть комбінацію клавіш `Ctrl + L` або іконку чату у верхньому правому куті)* напишіть:
-   * **Варіант А — Повний запуск (якщо у вас є підписка Google Gemini):**
+   * **Стандартний запуск (працює і на платній Pro, і на безкоштовній `Gemini Flash`):**
      ```text
-     Виконай ECHELON_PC_DOCTOR_UA.md
+     Виконай промпт із файлу ECHELON_PC_DOCTOR_UA.md
      ```
-   * **Варіант Б — Поетапний запуск у 2 частини (якщо ви на безкоштовному тарифі без підписки, щоб вкластися в ліміти):**
+   * **Надлегкий режим «По 1 модулю за раз» (опціонально для жорсткої економії безкоштовних лімітів):**
      ```text
-     Виконай ECHELON_PC_DOCTOR_UA.md (тільки Модулі 1–7: Очищення дисків і кешів)
+     Виконай ECHELON_PC_DOCTOR_UA.md помодульно (по 1 модулю за раз) із записом задач у ECHELON_AUDIT_REPORT.md
      ```
-     *(а після завершення першої частини відкрийте новий чат і запустіть другу половину: `Виконай ECHELON_PC_DOCTOR_UA.md (тільки Модулі 8–14: Реєстр, Безпека, Мережа, Драйвери та FPS)`)*
-   * 📄 **Живий журнал прогресу між сесіями (`ECHELON_AUDIT_REPORT.md` — нуль втрат прогресу між чатами та ребутами):** З першого ж етапу агент створює і безперервно оновлює файл **`ECHELON_AUDIT_REPORT.md`** у вашій папці після кожної дії чи хвилі — зберігаючи початкову точку відліку `ДО ОПТИМІЗАЦІЇ`, сумарну кумулятивну кількість звільнених ГБ за всі сесії, чек-лист `[ ] / [x]` та хронологію робіт! Якщо у вас закінчилися безкоштовні ліміти токенів, або після перезавантаження ПК / налаштування BIOS відкрився новий порожній чат — просто напишіть: **`Я перезавантажив ПК, продовж і перевір результати за файлом ECHELON_AUDIT_REPORT.md`**.
+   * 📄 **Помодульний `TODO`-трекер та Живий журнал між сесіями (`ECHELON_AUDIT_REPORT.md` — нуль втрат контексту та прогресу):** З Кроку 0 агент створює у вашій папці файл **`ECHELON_AUDIT_REPORT.md`** із трекером `[ ] Модуль 1 .. [ ] Модуль 14` та розділом **`📋 СПИСОК ЗАДАЧ (TODO)`**. Аналізуючи кожен модуль, агент одразу дописує знайдені задачі у `TODO`-список на диск і ставить позначку `[x] Модуль N`. Якщо у вас закінчилися безкоштовні ліміти токенів посеред роботи або ви перезавантажили ПК / налаштували BIOS — просто відкрийте новий чат і напишіть: **`Продовж роботу за файлом ECHELON_AUDIT_REPORT.md`** — агент сам прочитає файл і продовжить рівно з першого незавершеного `[ ] Модуля` без повторного сканування!
    * 💡 **ВАЖЛИВИЙ ЛАЙФХАК (Щоб не клікати «Allow» десятки разів):** Коли агент вперше попросить дозвіл запустити команду в терміналі, натисніть маленьку стрілочку **`▼`** біля кнопки **Allow / Run** і виберіть **«Always allow»**. Агент сам проведе повну безпечну перевірку за 1–2 хвилини і **повністю зупиниться**, показавши вам таблицю результатів!
 5. **⚡ Крок 5 — Напишіть одне слово, запустіть адмін-файл та напишіть `+` / `ГОТОВО` у чат (Етапи 2 та 3):**
    * У кінці звіту агент покаже пронумероване меню `[1]`, `[2]`, `[3]`... Просто напишіть йому у відповідь одне слово: **`ВСЕ`** (виконати всі рекомендовані оптимізації), або **`БАЗА`** (лише 100% безпечне очищення сміття), або перелічіть потрібні номери через кому, наприклад: **`1, 3, 5`**.
@@ -344,9 +368,9 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
 </details>
 
 <details>
-<summary><b>🪙 Як промпт економить токени в Google Antigravity? / How does the 2-Turn Rule save up to 80% of AI tokens in Google Antigravity?</b></summary>
+<summary><b>🪙 Як промпт економить ліміти токенів у безкоштовній версії Google Antigravity (`Gemini Flash`) і не втрачає контекст? / How does the Module-by-Module `TODO` Pipeline save up to 80% of tokens on Free Tier (`Gemini Flash`)?</b></summary>
 <br>
-Агент фільтрує всі дані всередині PowerShell (не виводячи тисячі сирих рядків у консоль), стискає всі справні модулі в один рядок (<code>✅ В ідеальному стані</code>) і замість довгих діалогів дає <b>Меню Коротких Відповідей в 1 слово</b> (<code>ВСЕ</code> / <code>ALL</code>, <code>БАЗА</code> / <code>SAFE</code>, <code>1, 3, 5</code> або <code>ВСЕ крім 2</code> / <code>ALL -2</code>). Уся оптимізація вкладається рівно у 2 повідомлення!
+Промпт спеціально спроектований для легких безкоштовних моделей із малими лімітами (<code>Gemini Flash</code>): 1) <b>Помодульний Конвеєр Задач (<code>TODO</code> у <code>ECHELON_AUDIT_REPORT.md</code>)</b> — агент аналізує систему послідовно (по 1 модулю або компактними фокус-групами <code>1–3</code> ➔ <code>4–7</code> ➔ <code>8–11</code> ➔ <code>12–14</code>, щоб не перевищити ліміт запитів за хвилину <code>RPM</code>), одразу вивантажує знайдені задачі у <code>TODO</code>-список на диск і ставить позначку <code>[x] Модуль N</code>; 2) якщо ліміт токенів вичерпався на будь-якому модулі — у новому чаті достатньо написати <code>Продовж роботу за файлом ECHELON_AUDIT_REPORT.md</code>, і агент продовжить рівно з наступного <code>[ ] Модуля</code> без повторного сканування; 3) усі справні модулі стискаються в один рядок (<code>✅ В ідеальному стані</code>), а замість довгих діалогів діє <b>Меню Коротких Відповідей в 1 слово</b> (<code>ВСЕ</code> / <code>ALL</code>, <code>БАЗА</code> / <code>SAFE</code>, <code>1, 3, 5</code>).
 </details>
 
 ---
