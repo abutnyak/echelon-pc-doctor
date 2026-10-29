@@ -77,8 +77,6 @@ flowchart LR
 ║ 🌐 DNS Ping & Home Wi-Fi/LAN ║ 38 ms / 11 LAN devs   ║ 8 ms (1.1.1.1) / Safe ║
 ║ 🛡️ Registry & DriverStore    ║ 1,420 dead keys / 18GB║ Cleaned + .reg Backup ║
 ╚══════════════════════════════╩═══════════════════════╩═══════════════════════╝
-🦅🇺🇦 Created for Echelon UA — TOP SCUM Server by Medishe (echelon-scum.com)
-💛💙 Did it help? — Donate to the Armed Forces of Ukraine (ZSU)! 💪🇺🇦
 ```
 
 ---
@@ -198,8 +196,6 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
 ║ 🌐 Пінг DNS та Домашня мережа║ 38 мс / 11 пристроїв  ║ 8 мс (1.1.1.1) / Чисто║
 ║ 🛡️ Реєстр та DriverStore     ║ 1,420 сиріт / 18 ГБ   ║ Очищено + бекап .reg  ║
 ╚══════════════════════════════╩═══════════════════════╩═══════════════════════╝
-🦅🇺🇦 Створено для гравців серверу Echelon UA — TOP SCUM game server by Medishe
-💛💙 Допомогло? — донать на ЗСУ! 💪🇺🇦
 ```
 
 ---
