@@ -44,12 +44,8 @@
 
 | 🇬🇧 English (3 Steps) | 🇺🇦 Українською (3 кроки) |
 | :--- | :--- |
-| 1️⃣ Download & install free **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Click **`<> Code` ➔ `Download ZIP`** on this page, extract it, and open that folder in Antigravity (`File ➔ Open Folder`).<br>3️⃣ Paste this command into the AI chat on the right: | 1️⃣ Встановіть безкоштовну програму **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Натисніть зелену кнопку **`<> Code` ➔ `Download ZIP`** вгорі сторінки, розпакуйте папку та відкрийте її в Antigravity (`File ➔ Open Folder`).<br>3️⃣ Вставте цю команду у вікно ШІ-чату праворуч: |
-| ```text
-Run ECHELON_PC_DOCTOR_EN.md
-``` | ```text
-Виконай промпт із файлу ECHELON_PC_DOCTOR_UA.md
-``` |
+| 1️⃣ Download & install free **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Click **`<> Code` ➔ `Download ZIP`** on this page, extract it, and open that folder in Antigravity (`File ➔ Open Folder`).<br>3️⃣ Copy & paste this command into the AI chat on the right: | 1️⃣ Встановіть безкоштовну програму **[Google Antigravity](https://antigravity.google/)**.<br>2️⃣ Натисніть зелену кнопку **`<> Code` ➔ `Download ZIP`** вгорі сторінки, розпакуйте папку та відкрийте її в Antigravity (`File ➔ Open Folder`).<br>3️⃣ Скопіюйте та вставте цю команду у вікно ШІ-чату праворуч: |
+| <pre><code>Run ECHELON_PC_DOCTOR_EN.md</code></pre> | <pre><code>Виконай промпт із файлу ECHELON_PC_DOCTOR_UA.md</code></pre> |
 
 ---
 
