@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://github.com/abutnyak/echelon-pc-doctor">
+  <img src="./assets/echelon-banner.jpg" alt="ECHELON PC DOCTOR v1.1 — AI Windows 10/11 & Gaming PC Optimizer by Echelon UA" width="100%">
+</a>
+
 # 🦅🇺🇦 ECHELON PC DOCTOR `v1.1`
 
 ### **Universal AI-Powered Windows 10/11 Audit, Cleanup, Debloat, Security & FPS Optimization System — For All PC Users & Gamers Worldwide**
