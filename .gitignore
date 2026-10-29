@@ -1,0 +1,9 @@
+# Local audit reports and temporary scripts (never push personal PC diagnostics to GitHub)
+ECHELON_AUDIT_REPORT.md
+DISCORD_ANNOUNCEMENT.md
+*.bat
+*.ps1
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
