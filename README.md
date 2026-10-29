@@ -72,20 +72,24 @@ flowchart LR
     E --> F["⚡ 6. Stage 2 Turbo Boost\n+ Shareable Results Card 🏆"]
 ```
 
-### 🖥️ Real Verified Case Study: Actual "Before / After" Benchmark (`Intel Core Ultra 7 265K + RTX 4070 Ti + 64 GB DDR5`)
+### 🖥️ Real Verified Case Study: Full Multi-Stage Benchmark (`Intel Core Ultra 7 265K + MSI Z890 + RTX 4070 Ti + 64 GB DDR5`)
 
 ```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  🦅🇺🇦 ECHELON PC DOCTOR v1.1 — VERIFIED REAL-PC BENCHMARK CARD               ║
-╠══════════════════════════════╦═══════════════════════╦═══════════════════════╣
-║ Metric / Subsystem           ║ BEFORE (Stage 1 Scan) ║ AFTER (Stage 3 Done)  ║
-╠══════════════════════════════╬═══════════════════════╬═══════════════════════╣
-║ 💾 Total Reclaimed SSD Space ║ 101.60 GB of Junk     ║ +101.60 GB Freed!     ║
-║ 🗂️ C:\Windows\Installer DB   ║ 20.22 GB (61 orphans) ║ 4.49 GB (-15.73 GB!)  ║
-║ 🎮 GPU / VBS / Overlays      ║ VBS On / iGPU Clash   ║ VBS Off / Reflex On   ║
-║ 🖱️ USB Sleep & Kernel Timer  ║ 12 USB sleeping       ║ 0 Sleeping / 0.5ms    ║
-║ 🛡️ Anti-Bloatware Shield     ║ Windows Update Open   ║ 5-Layer Shield Locked ║
-╚══════════════════════════════╩═══════════════════════╩═══════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════════╗
+║  🦅🇺🇦 ECHELON PC DOCTOR v1.1 — COMPLETE REAL-PC ENGINEERING CASE STUDY             ║
+╠══════════════════════════════╦══════════════════════════╦══════════════════════════╣
+║ Metric / Subsystem           ║ BEFORE (Initial State)   ║ AFTER (Full Optimization)║
+╠══════════════════════════════╬══════════════════════════╬══════════════════════════╣
+║ 💾 Reclaimed Local Disk Space║ 448.88 GB of Junk/Orphans║ +448.88 GB Freed on PC!  ║
+║ 🚀 OS & SCUM NVMe Migration  ║ OS on old WD / SCUM SATA ║ 980 PRO NVMe + SCUM NVMe ║
+║ 🧠 BIOS & 64GB DDR5 RAM Speed║ Old BIOS 1.A70 / 4800MHz ║ BIOS 1.AD0 + XMP 6000MHz ║
+║ 🗂️ DriverStore & Installer DB║ 99 dupes + 61 MSI orphans║ -20.03 GB Cleaned Safely ║
+║ 🦠 Malware & Cyber-Hygiene   ║ Infatica P2B + Lightshot ║ Botnet Killed / ShareX   ║
+║ 🎮 GPU, VBS & Overlays       ║ HAGS Off / VBS On / Clash║ HAGS=2 / VBS Off / Reflex║
+║ 🖱️ Kernel Timer & USB / Audio║ 12 USB sleeping / Ducking║ 0.5ms Timer / 0 USB Sleep║
+║ 🌐 Killer 5GbE LAN & Ping    ║ IntMod=On / NetThrottle  ║ IntMod=0 / RSC & NB Off  ║
+║ 🛡️ Windows Update Protection ║ Reinstalls Bloatware     ║ 5-Layer Shield Locked In ║
+╚══════════════════════════════╩══════════════════════════╩══════════════════════════╝
 ```
 
 ---
@@ -189,20 +193,24 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
 2. 🛡️ **Доктрина «Не нашкодь» та Меню Коротких Команд (Економія до 80% токенів):** навіть при увімкненому режимі *«Always allow»* агент **повністю зупиняється після сканування**, стискає справні модулі в 1 рядок, формує звіт у 3 категоріях (**🟢 100% Безпечне сміття**, **🟡 На ваш вибір**, **🔴 Драйвери та Турбо-тюнінг**) і дає **меню відповідей одним словом (`ВСЕ`, `БАЗА`, `1, 3, 5`, `ВСЕ крім 2`)** без довгих переписок!
 3. ⚡ **Етап 2 — Автопілот (`MEGA-BATCHING`) із Точкою відновлення та Кнопкою Відкату (`UNDO_RESTORE_DEFAULTS.bat`):** перед змінами автоматично створює **точку відновлення системи Windows, бекап реєстру `.reg` та готовий файл відкату в 1 клік `C:\Echelon_Backup\UNDO_RESTORE_DEFAULTS.bat`**, виконує лише схвалені вами пункти об'єднаним скриптом і генерує фінальну **«Картку Результатів До / Після»**!
 
-### 🖥️ Реальний верифікований кейс: Фактичний результат До / Після (`Intel Core Ultra 7 265K + RTX 4070 Ti + 64 GB DDR5`):
+### 🖥️ Реальний верифікований кейс: Повний результат оптимізації ПК (`Intel Core Ultra 7 265K + MSI Z890 + RTX 4070 Ti + 64 GB DDR5`):
 
 ```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  🦅🇺🇦 ECHELON PC DOCTOR v1.1 — РЕАЛЬНИЙ ЗАМІР ДО / ПІСЛЯ                     ║
-╠══════════════════════════════╦═══════════════════════╦═══════════════════════╣
-║ Показник / Підсистема        ║ ДО ОПТИМІЗАЦІЇ        ║ ПІСЛЯ ОПТИМІЗАЦІЇ     ║
-╠══════════════════════════════╬═══════════════════════╬═══════════════════════╣
-║ 💾 Звільнено на всіх SSD     ║ 101.60 ГБ сміття/кешу ║ +101.60 ГБ вільно!    ║
-║ 🗂️ База C:\Windows\Installer ║ 20.22 ГБ (61 сирота)  ║ 4.49 ГБ (-15.73 ГБ!)  ║
-║ 🎮 Відеокарта / VBS / Оверлеї║ VBS Увімк / Конфлікт  ║ VBS Вимк / Reflex On  ║
-║ 🖱️ Сон USB та Таймер Ядра    ║ 12 USB засинали       ║ 0 сну / 0.5ms Global  ║
-║ 🛡️ Захист від сміття Windows ║ Відкритий до апдейтів ║ 5-Рівневий Щит HKLM!  ║
-╚══════════════════════════════╩═══════════════════════╩═══════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════════╗
+║  🦅🇺🇦 ECHELON PC DOCTOR v1.1 — ПОВНИЙ РЕАЛЬНИЙ КЕЙС ДО / ПІСЛЯ                     ║
+╠══════════════════════════════╦══════════════════════════╦══════════════════════════╣
+║ Показник / Підсистема        ║ ДО ОПТИМІЗАЦІЇ           ║ ПІСЛЯ ОПТИМІЗАЦІЇ        ║
+╠══════════════════════════════╬══════════════════════════╬══════════════════════════╣
+║ 💾 Звільнено місця на ПК     ║ 448.88 ГБ сміття й дублів║ +448.88 ГБ чистого місця!║
+║ 🚀 Міграція ОС та гри SCUM   ║ ОС на WD / SCUM на SATA  ║ 980 PRO NVMe + SCUM NVMe ║
+║ 🧠 Прошивка BIOS та ОЗП DDR5 ║ Старий 1.A70 / 4800 МГц  ║ BIOS 1.AD0 + XMP 6000МГц ║
+║ 🗂️ DriverStore та Installer  ║ 99 дублів + 61 патч-сирот║ -20.03 ГБ безпечно знято ║
+║ 🦠 Віруси та Кібергігієна    ║ Ботнет Infatica+Lightshot║ Ботнет знищено / ShareX  ║
+║ 🎮 Відеокарта, VBS та Оверлеї║ HAGS Вимк / VBS / Конфл. ║ HAGS=2 / VBS Вимк /Reflex║
+║ 🖱️ Таймер ядра, USB та Звук  ║ 12 USB спали / Приглуш.  ║ 0.5ms Таймер / 0 сну USB ║
+║ 🌐 Мережа Killer 5GbE і Пінг ║ IntMod=On / NetThrottle  ║ IntMod=0 / RSC та NB Off ║
+║ 🛡️ Захист від сміття Windows ║ Відкритий до апдейтів    ║ 5-Рівневий Щит HKLM!     ║
+╚══════════════════════════════╩══════════════════════════╩══════════════════════════╝
 ```
 
 ---
