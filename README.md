@@ -336,9 +336,9 @@ Before changing a single setting on Stage 2, the AI agent automatically saves al
 </details>
 
 <details>
-<summary><b>💾 Як безпечно звільнити 50–150+ ГБ на диску C: (SSD) без видалення особистих файлів, паролів і збережень ігор? / How to safely free 50–150+ GB on C: drive?</b></summary>
+<summary><b>💾 Як безпечно звільнити 50–150+ ГБ на диску C: (SSD) із захистом від випадкового стирання та апаратного `SSD TRIM`? / How does the 5-Layer Anti-Data-Loss & `SSD TRIM` Guard protect user files?</b></summary>
 <br>
-На Етапі 1 агент працює виключно в режимі читання (Read-Only). Особисті файли, Робочий стіл, Документи, збереження ігор (<code>SaveGames</code>) та паролі браузерів занесені до <b>Чорного списку недоторканних даних</b>. Місце звільняється за рахунок видалення старих дублікатів драйверів у <code>DriverStore\FileRepository</code> (5–30 ГБ), роздутих тіньових копій <code>VSS</code>, прихованих бекапів iPhone (<code>MobileSync</code>, 50–150 ГБ), старих кешів шейдерів/оновлень та повернення «фантомно зниклого» місця NTFS.
+На Етапі 1 агент працює виключно в режимі читання (Read-Only). На Етапі 2 діє <b>5-Рівневий Захист від втрати даних та <code>SSD TRIM</code></b>: 1) усі додаткові диски (<code>D:..Z:</code>), папка <code>Downloads</code> та <b>Кошик (<code>$Recycle.Bin</code>)</b> заблоковані в режимі <code>100% Read-Only</code> (агент ніколи не очищує їх автоматично скриптом); 2) повністю заборонені небезпечні конструкції <code>cmd /c del / rd</code> та <code>"$path\*"</code>, а першим рядком виконується <code>Set-Location $env:TEMP</code>; 3) перед очищенням кешів тимчасово блокується апаратна команда <code>SSD TRIM</code> (<code>fsutil behavior set DisableDeleteNotify 1</code>) і заборонений примусовий <code>ReTrim</code>, щоб контролер SSD ніколи не занулив комірки пам'яті; 4) очищення кешів на <code>C:</code> відбувається виключно через функцію-запобіжник <code>Clear-SafeCache</code> із перевіркою глибини шляху (<code>>= 3</code> рівні підпапок) та суворим Білим списком системних кешів (<code>DriverStore</code>, <code>Windows\Installer</code>, <code>DXCache</code>, <code>D3DSCache</code>, <code>Temp</code>).
 </details>
 
 <details>
